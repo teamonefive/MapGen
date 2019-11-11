@@ -15,7 +15,7 @@ SpriteAtlas:
       compressionQuality: 50
       maxTextureSize: 2048
       textureCompression: 0
-      filterMode: 1
+      filterMode: 0
       generateMipMaps: 0
       readable: 1
       crunchedCompression: 0
@@ -42,17 +42,19 @@ SpriteAtlas:
       enableTightPacking: 1
     variantMultiplier: 1
     packables:
-    - {fileID: 2800000, guid: 3b66e1a27c9634fe9a4746c47eeda7cc, type: 3}
+    - {fileID: 102900000, guid: 0a6197d68dd31494c81086ea86aac9a0, type: 3}
     - {fileID: 2800000, guid: 8e160a2a620644cd6afef9119dad1093, type: 3}
     - {fileID: 102900000, guid: 1404c7b0e7500d64da94f7aad2816635, type: 3}
     - {fileID: 102900000, guid: a68fe450c342fc048a3c207c149305b0, type: 3}
-    totalSpriteSurfaceArea: 232448
+    - {fileID: 2800000, guid: a7108ee6360e8eb4abb650089ebcde6f, type: 3}
+    totalSpriteSurfaceArea: 535016
     bindAsDefault: 1
     storedHash:
       serializedVersion: 2
-      Hash: 2d2d1e9274b84ad285a1dc74ca729a2c
+      Hash: 828a73d9228e3e612530f4d7e0ec0290
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: 21300000, guid: 9b26f450413186341be2c2c7fb78d10e, type: 3}
   - {fileID: -8153859664205860323, guid: b1af0c91f4357094cbf9c7109859d2e6, type: 3}
   - {fileID: -1750622584067641330, guid: b1af0c91f4357094cbf9c7109859d2e6, type: 3}
   - {fileID: 140173015837874806, guid: b1af0c91f4357094cbf9c7109859d2e6, type: 3}
@@ -262,6 +264,10 @@ SpriteAtlas:
   - {fileID: 7390012268128925190, guid: 3b66e1a27c9634fe9a4746c47eeda7cc, type: 3}
   - {fileID: 465703221186805084, guid: 3b66e1a27c9634fe9a4746c47eeda7cc, type: 3}
   - {fileID: 7694969686249583470, guid: 3b66e1a27c9634fe9a4746c47eeda7cc, type: 3}
+  - {fileID: 21300000, guid: a4c0b9c4b0a0d4649820f5d6b8b2dd40, type: 3}
+  - {fileID: 21300000, guid: 974abdc59afad3541b900ccf83ded41f, type: 3}
+  - {fileID: 21300000, guid: a7108ee6360e8eb4abb650089ebcde6f, type: 3}
+  - {fileID: 21300000, guid: 017bef5904ca7f9499c9a8a107400778, type: 3}
   - {fileID: 430927330078481251, guid: c5325389d3762cc4586366b8012437e9, type: 3}
   - {fileID: -1511923217119065638, guid: c5325389d3762cc4586366b8012437e9, type: 3}
   - {fileID: -3350219925091953350, guid: c5325389d3762cc4586366b8012437e9, type: 3}
@@ -281,11 +287,16 @@ SpriteAtlas:
   - {fileID: -1240422962202182540, guid: c5325389d3762cc4586366b8012437e9, type: 3}
   - {fileID: 5137485339482900152, guid: c5325389d3762cc4586366b8012437e9, type: 3}
   - {fileID: 21300000, guid: 8e160a2a620644cd6afef9119dad1093, type: 3}
-  - {fileID: 21300000, guid: 509521ece016a2343bc77d50abfffa7c, type: 3}
+  - {fileID: 6413867661117553163, guid: 509521ece016a2343bc77d50abfffa7c, type: 3}
+  - {fileID: -4936940927964707445, guid: 509521ece016a2343bc77d50abfffa7c, type: 3}
+  - {fileID: 6671062928473102778, guid: 509521ece016a2343bc77d50abfffa7c, type: 3}
   - {fileID: 3167161203882850167, guid: ad81bead15360f34baf18d1aa41e1026, type: 3}
   - {fileID: 876795591125516320, guid: ad81bead15360f34baf18d1aa41e1026, type: 3}
   - {fileID: -2839812311322640375, guid: ad81bead15360f34baf18d1aa41e1026, type: 3}
+  - {fileID: 21300000, guid: 775df1ce29ae42343a6292fe3278f708, type: 3}
+  - {fileID: 21300000, guid: eeea7a8ffb27b714688adcae578c1bc3, type: 3}
   m_PackedSpriteNamesToIndex:
+  - sand
   - Dwarf_Sprite_Sheet1.2v_63
   - Dwarf_Sprite_Sheet1.2v_62
   - Dwarf_Sprite_Sheet1.2v_61
@@ -495,6 +506,10 @@ SpriteAtlas:
   - tileset_grass2
   - tileset_grass0
   - tileset_grass1
+  - stone
+  - rock
+  - background_refreence
+  - grass
   - dwarf-idle-run-jump_13
   - dwarf-idle-run-jump_0
   - dwarf-idle-run-jump_12
@@ -514,9 +529,13 @@ SpriteAtlas:
   - dwarf-idle-run-jump_8
   - dwarf-idle-run-jump_9
   - back
-  - lampy2
+  - lampy2_1
+  - lampy2_0
+  - lampy2_2
   - lampy_2
   - lampy_1
   - lampy_0
+  - clay
+  - dirt
   m_Tag: DyggSprites
   m_IsVariant: 0
